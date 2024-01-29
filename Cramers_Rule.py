@@ -88,4 +88,5 @@ def main():
 
     print('\n',np.linalg.solve(A,b))
 
-main()
+if __name__=='main':
+    main()
